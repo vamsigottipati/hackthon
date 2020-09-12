@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hackthone"
+    }
+  },
+  "defaultProject": "hackthone",
+  "cli": {
+    "analytics": "2f9d113a-12b7-49c5-b05f-b139e5fef9f8"
+  }
 }
