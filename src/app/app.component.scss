@@ -6,9 +6,14 @@ li{
     list-style-type:none;
     margin-right: 35px;
 }
-li:active{
-    border: none;
-    border-bottom: black;
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    border-bottom: 2px solid black;
+
 }
 .heading{
    
