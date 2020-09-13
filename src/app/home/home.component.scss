@@ -11,7 +11,7 @@
 }
 
 .image img{
-    width: 700px;height: 500px;
+    width: 700px;height: 500px;//mobile size dec
     padding-left: 150px;
 
 }
@@ -30,7 +30,74 @@
 .subcase{
     margin-left:70px;
     margin:auto;
-    /* margin-bottom: auto;
-    margin-top: auto;
-    margin-left: auto; */
+ 
+}
+
+
+.corona{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+    .imge{
+     padding-left:10px;}
+
+    .imge img{
+     border-radius: 10%;
+     width: 400px;
+    }
+    .c-con{
+        text-align: left;
+        padding: 50px 50px 10px 130px;
+
+    }
+.connect-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.card{
+    width:300px;
+    height: 400px;
+    background:white;
+margin: auto;//mobile margin bottom ivali
+text-align: center;
+border-radius: 10px;
+ 
+}
+
+
+.alert{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+
+}
+.alert img{
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.doctor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dimg img{
+    width: 700px;
+    height: 500px;
+}
+.dcontent{
+    // margin: auto;
+    // width: 35%;
+    padding-top: 80px;
+    margin-left: 30px;
 }
