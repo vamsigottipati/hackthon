@@ -6,6 +6,10 @@ li{
     list-style-type:none;
     margin-right: 35px;
 }
+li:active{
+    border: none;
+    border-bottom: black;
+}
 .heading{
    
         font-size: 18px;
@@ -13,3 +17,19 @@ li{
         font-family: 'Roboto', sans-serif;
    
 }
+@media  screen and (min-width: 768px) and  (max-width:991px){
+    ul{
+        margin-left: 20%;
+    }
+}
+@media  screen and  (max-width:767px){
+    ul{
+        margin-left: 0;
+    }
+    li{
+        margin-right: 12px;
+    }
+    .heading{
+        font-size: 16px;
+    }
+ }

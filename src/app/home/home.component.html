@@ -3,12 +3,12 @@
         <div class="head-content">
             <div class="heading1" style="line-height: 30px;">CORONA</div>
             <div class="heading2">Virus Disease (COVID-19)</div><br>
-            <div class="text" style="line-height: 25px;">Pray for coronavirus Victims.<br> virus was first reported in Wuhan,
-            Hubai,<br>Chaina on 17 November 2019, and on 11 March 2020, the<br>
-        World Health Organisation (WHO) declared the<br>
+            <div class="text" style="line-height: 25px;">Pray for coronavirus Victims. The virus was first reported in Wuhan,
+             Hubai, Chaina on 17 November 2019, and on 11 March 2020, the
+        World Health Organisation (WHO) declared the
     outbreak a pendamic. </div>
     <br>
-    <button class="buttonStyle filledBtn">How to control!</button>
+    <button class="buttonStyle filledBtn" (click)="scroll(target)">How to control!</button>
         </div>
         <div class="image">
             <img src="../../assets/Group 1.png" >
@@ -28,21 +28,21 @@
 <div class="corona">
     <div class="imge"><img src="../../assets/corona1.PNG" alt=""></div>
     <div class="c-con">
-        <div class="heading1" style="color: #E76469;">What is Coronavirus?</div><br>
+        <div class="heading1" style="color: #E76469;line-height:30px">What is Coronavirus?</div><br>
        <div class="sub-head" style="line-height:25px;">
         <b style="font-size: 32px;color: green;">C</b>
-        orona virus are a type of virus,There are many<br>
-        kinds and some causes disease. Coronaviruses typically <br>
+        orona virus are a type of virus,There are many
+        kinds and some causes disease. Coronaviruses typically 
         affect the respiratory tracts  of birds and mammals, 
-        <br> including humans. Doctors associate them with the common cold,
-        <br>bronchitis, pneumonia, severe acute respiratory syndrome (SARS),
-        and<br> coronavirusdisease 2019 (COVID-19). These viruses can also 
+        including humans. Doctors associate them with the common cold,
+        bronchitis, pneumonia, severe acute respiratory syndrome (SARS),
+        and coronavirus disease 2019 (COVID-19). These viruses can also 
         affect the gut.<br>
         </div></div>
 </div>
 
 
-<div class="heading1"style="padding-top:50px;margin-left:40%;color:#E76469">Covid Contagion</div>
+<div class="heading1 proper-head">Covid Contagion</div>
 <div class="connect-cards" style="line-height: 20px;">
     <div class="card"><img src="../../assets/connect1.PNG" alt=""style="height:250px;"><br><div class="heading2">Air Transmission</div><br><br><div class="sub-head"style="line-height:25px">Corona mostly trasmits through air,so must use mask to filter air.</div></div>
     <div class="card"><img src="../../assets/connect2.PNG" alt=""style="height:250px;"><br><div class="heading2">Human Contacts</div><br><br><div class="sub-head"style="line-height:25px">Corona  transfer through contacts,so one must maintain social distance.</div></div>
@@ -50,11 +50,11 @@
 </div>
 
 
-<div class="alert">
+<div class="alert" #target>
     <img src="../../assets/symptons.jpg" alt="">
 </div>
 
-<div class="heading1"style="padding-top:50px;margin-left:40%">Covid Precaution</div>
+<div class="heading1 proper-head" style="color: black;">Covid Precaution</div>
 <div class="doctor">
 <div class="dimg"><img src="../../assets/Group 4@2x.png" alt=""></div>
 <div class="dcontent">
